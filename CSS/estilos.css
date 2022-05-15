@@ -140,9 +140,9 @@
 @media screen and (max-width: 600px) {
     .body {height: 800px;}
     .inicio2 {flex-direction: column; height: auto;}
-    .inicio2__veggie-caja1 {width: 320px; height: auto;}
-    .inicio2__veggie-caja2 {width: 320px; padding-left: 0; height: auto;}
-    .inicio2__vegie-imagen {width: 320px; height: 320px;}
+    .inicio2__veggie-caja1 {width: 400px; height: auto;}
+    .inicio2__veggie-caja2 {width: 400px; padding-left: 0; height: auto;}
+    .inicio2__vegie-imagen {width: 400px; height: 320px;}
     .footer {justify-content: center; height: 200px; padding: 0;}
     .footer__1 {width: 50px; padding: 10px;}
     .footer__ {width: 150px;}
