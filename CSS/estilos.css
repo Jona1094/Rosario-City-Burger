@@ -11,6 +11,32 @@
     font-family: 'Koulen', cursive;
 }
 
+.navmenu {
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    color: #F8C471;
+    animation-name: navmenu;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes navmenu {
+    0% {
+        color: #F8C471;
+    }
+    25% { 
+        color: wheat;
+    }
+    100% {
+        color: #F8C471;
+    }
+}
+
 .nav-link:hover {
     color: yellow;
     transform: scale(1.1);
@@ -66,7 +92,6 @@
    color: wheat;
    font-weight: bold;
    font-family: 'Secular One', sans-serif;
-   top: 50%;
    
 }
 
@@ -122,6 +147,20 @@
     transform: scale(1.1);
 }
 
+.bodymenu {
+    background-color: black;
+}
+
+
+.menu {
+    color: wheat;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+   
+}
 
 
 
@@ -132,18 +171,22 @@
 
 
 
-
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
+    .wpp {left: 85%; top: 15%;}
+    .inicio2 {flex-direction: column; height: auto;}
+    
 
 }
 
 @media screen and (max-width: 600px) {
     .body {height: 800px;}
     .inicio2 {flex-direction: column; height: auto;}
-    .inicio2__veggie-caja1 {width: 400px; height: auto;}
-    .inicio2__veggie-caja2 {width: 400px; padding-left: 0; height: auto;}
-    .inicio2__vegie-imagen {width: 400px; height: 320px;}
+    .inicio2__veggie-caja1 {width: 350px; height: auto; padding: 0;}
+    .inicio2__veggie-caja2 {width: 350px; padding-left: 0; height: auto; padding: 0;}
+    .inicio2__vegie-imagen {width: 350px; height: 320px;}
     .footer {justify-content: center; height: 200px; padding: 0;}
     .footer__1 {width: 50px; padding: 10px;}
     .footer__ {width: 150px;}
+    .imgcheddar {width: 400px; height: 300px;}
+    .wpp {left: 85%; width: 40px;}
 }
