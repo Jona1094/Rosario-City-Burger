@@ -1,0 +1,19 @@
+
+.footer {
+    background-color: red ;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: $letra-principal;
+    
+    &__1 {
+        padding: 2rem;
+    }
+
+    &:hover {
+        transform: $transform-principal;
+    } 
+}
+

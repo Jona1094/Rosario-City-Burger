@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .body {background-size: auto;}
+    .wpp {left: 85%; top: 15%;}
+    .inicio2 {flex-direction: column; width: auto; height: auto;}
+    .inicio2__veggie-caja1 {width: auto; height: auto; padding: 0;}
+    .inicio2__veggie-caja2 {width: auto; padding-left: 0; height: auto; padding: 0;}
+    .inicio2__vegie-imagen {width: auto;}
+    .wpp {left: 90%; width: 40px;}
+    .imgcheddar {display: none;}
+    .imgbanco {width: 500px; height: auto; flex-direction: column; margin: 5px; align-content: center;}
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .body {height: 800px; background-size: cover;}
+    .bodymenu {width: auto;}
+    .inicio2 {flex-direction: column; height: auto;}
+    .inicio2__veggie-caja1 {width: auto; height: auto; padding: 0;}
+    .inicio2__veggie-caja2 {width: auto; padding-left: 0; height: auto; padding: 0;}
+    .inicio2__vegie-imagen {width: auto; height: 320px;}
+    .footer {justify-content: center; height: 200px; padding: 0;}
+    .footer__1 {width: 50px; padding: 10px;}
+    .footer__ {width: 150px;}
+    .imgcheddar {display: none;}
+    .imgcheddar {display: flex; flex-direction: column; width: auto; height: auto; justify-content: center; margin: 0px;}
+    .imgbanco {width: 250px; height: auto; flex-direction: column; margin: 5px; align-content: center;}
+    .wpp {left: 90%; width: 40px;}
+    .imgveggie {width: 280px; margin: 3px;} 
+    .menu-1 {font-size: 50px;}
+
+}

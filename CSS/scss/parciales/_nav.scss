@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.nav-link {
+    font-size: 25px;
+    color: wheat;
+    font-family: 'Koulen', cursive;
+
+    .nav-link:hover {
+        color: yellow;
+        transform: $transform-principal;
+    
+    }
+}
+
+.navmenu {
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    color: #F8C471;
+    animation-name: navmenu;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    @keyframes navmenu {
+        0% {
+            color: #F8C471;
+        }
+        25% { 
+            color: $color-principal;
+        }
+        100% {
+            color: #F8C471;
+        }
+    }
+}
+
+
+
+

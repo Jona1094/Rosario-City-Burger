@@ -225,7 +225,7 @@
     .imgcheddar {display: flex; flex-direction: column; width: auto; height: auto; justify-content: center; margin: 0px;}
     .imgbanco {width: 250px; height: auto; flex-direction: column; margin: 5px; align-content: center;}
     .wpp {left: 90%; width: 40px;}
-    .imgveggie {width: 280px; margin: 3px;}
+    .imgveggie {width: 280px; margin: 3px;} 
     .menu-1 {font-size: 50px;}
 
 }

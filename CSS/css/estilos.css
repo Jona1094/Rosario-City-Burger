@@ -1,0 +1,288 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.nav-link {
+  font-size: 25px;
+  color: wheat;
+  font-family: 'Koulen', cursive;
+}
+
+.nav-link .nav-link:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.navmenu {
+  margin: 25px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Teko', sans-serif;
+  font-weight: bold;
+  color: #F8C471;
+  animation-name: navmenu;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes navmenu {
+  0% {
+    color: #F8C471;
+  }
+  25% {
+    color: wheat;
+  }
+  100% {
+    color: #F8C471;
+  }
+}
+
+.wpp {
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  position: fixed;
+}
+
+.wpp:hover {
+  transform: scale(1.1);
+}
+
+.body {
+  height: 700px;
+  background-image: url(../imagenes/pexels-jonathan-borba-2983101.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*Con esta opción adapta la imagen en todo el section*/
+}
+
+.bodymenu {
+  background-color: red;
+  height: auto;
+  width: auto;
+}
+
+.inicio1__takeaway {
+  padding: 3rem;
+}
+
+.inicio2 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 700px;
+}
+
+.inicio2__veggie {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px;
+}
+
+.inicio2__veggie-caja1 {
+  background-color: yellowgreen;
+  color: black;
+  width: 1100px;
+  height: 700px;
+  text-align: center;
+  padding: 15%;
+}
+
+.inicio2__veggie-caja2 {
+  width: 100%;
+  height: 700px;
+  padding-left: 60px;
+}
+
+.takeaway {
+  font-size: 3rem;
+  color: wheat;
+  font-family: "Koulen", cursive;
+  font-weight: bold;
+  /*poner en negrita con font-weight: bold;*/
+}
+
+.pago {
+  color: wheat;
+  font-family: "Koulen", cursive;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: black;
+  color: wheat;
+  font-weight: bold;
+  font-family: "Koulen", cursive;
+}
+
+.btn-primary .btn-primary:hover {
+  transform: scale(1.1);
+  background-color: orangered;
+}
+
+.footer {
+  background-color: red;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Koulen", cursive;
+}
+
+.footer__1 {
+  padding: 2rem;
+}
+
+.footer:hover {
+  transform: scale(1.1);
+}
+
+.menu {
+  color: wheat;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.menu-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Koulen", cursive;
+  font-size: 70px;
+  color: wheat;
+  margin: 1rem;
+  animation-name: menu-1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border: solid black 5px;
+  border-radius: 10px;
+}
+
+@keyframes menu-1 {
+  0% {
+    background-color: #28B463;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .body {
+    background-size: auto;
+  }
+  .wpp {
+    left: 85%;
+    top: 15%;
+  }
+  .inicio2 {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .inicio2__veggie-caja1 {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  .inicio2__veggie-caja2 {
+    width: auto;
+    padding-left: 0;
+    height: auto;
+    padding: 0;
+  }
+  .inicio2__vegie-imagen {
+    width: auto;
+  }
+  .wpp {
+    left: 90%;
+    width: 40px;
+  }
+  .imgcheddar {
+    display: none;
+  }
+  .imgbanco {
+    width: 500px;
+    height: auto;
+    flex-direction: column;
+    margin: 5px;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    height: 800px;
+    background-size: cover;
+  }
+  .bodymenu {
+    width: auto;
+  }
+  .inicio2 {
+    flex-direction: column;
+    height: auto;
+  }
+  .inicio2__veggie-caja1 {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  .inicio2__veggie-caja2 {
+    width: auto;
+    padding-left: 0;
+    height: auto;
+    padding: 0;
+  }
+  .inicio2__vegie-imagen {
+    width: auto;
+    height: 320px;
+  }
+  .footer {
+    justify-content: center;
+    height: 200px;
+    padding: 0;
+  }
+  .footer__1 {
+    width: 50px;
+    padding: 10px;
+  }
+  .footer__ {
+    width: 150px;
+  }
+  .imgcheddar {
+    display: none;
+  }
+  .imgcheddar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin: 0px;
+  }
+  .imgbanco {
+    width: 250px;
+    height: auto;
+    flex-direction: column;
+    margin: 5px;
+    align-content: center;
+  }
+  .wpp {
+    left: 90%;
+    width: 40px;
+  }
+  .imgveggie {
+    width: 280px;
+    margin: 3px;
+  }
+  .menu-1 {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

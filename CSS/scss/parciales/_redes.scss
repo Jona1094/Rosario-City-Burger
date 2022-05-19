@@ -1,0 +1,11 @@
+.wpp {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    position: fixed;
+
+    &:hover {
+        transform: $transform-principal;
+    }
+}
+
