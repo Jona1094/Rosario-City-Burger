@@ -1,0 +1,37 @@
+/*$modo: claro;
+$theme-color: white;
+
+@if vista == claro {
+    $theme-color: green;
+} @else if $vista == oscuro {
+    $theme-color: pink;
+} @else {
+
+}
+
+.sassII {
+    color: $color;
+}*/
+
+@for $i from 1 to 6 {
+    .menu#{$i} {
+        font-size: 10px * $i;
+    }
+}
+
+@each $color in blue, red, yellow {
+    .#{$color} {
+        background-color: #{$color};
+    }
+}
+
+$redes: (
+    facebook: black,
+    instagram: pink,
+);
+
+@each $clave, $valor in $redes {
+    .btn {
+        background-color: $valor;
+    }
+}

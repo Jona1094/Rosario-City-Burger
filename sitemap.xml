@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/index.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/Menu.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/Promociones.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/SobreNosotros.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/Contactanos.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/burger.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/sandwiches.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/veggie.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jona1094.github.io/Rosario-City-Burger/pages/vegan.html</loc>
+  <lastmod>2022-05-20T03:33:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

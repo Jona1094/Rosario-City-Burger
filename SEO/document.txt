@@ -1,0 +1,4 @@
+ En el index.html sumé el SEO con las siguientes características:
+Descripción: “Nuestras hamburguesas son únicas, sabrosas, para chuparse los dedos. ¡Seguro volvés!", 
+mediante la etiqueta meta name description.
+Palabras clave:"Hamburguesas, Rosario, Burguer, Comida, Vegan, Veggie", mediante la etiqueta meta name keywords.

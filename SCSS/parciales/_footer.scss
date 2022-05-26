@@ -1,6 +1,6 @@
 
 .footer {
-    background-color: #2E4053 ;
+    background-color: red;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -16,4 +16,6 @@
         transform: $transform-principal;
     } 
 }
+
+
 
