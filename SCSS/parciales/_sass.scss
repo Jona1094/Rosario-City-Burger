@@ -12,18 +12,21 @@ $redes: (
 }
 
 $estilos: (
-  color: pink,
+  color: #283747,
   position: end,
   tFuente: 20px,
   rem : 1rem
 );
 
-div {
+.contactanos {
     background-color: map-get($estilos, color);
     text-align: map-get($estilos, position);
     padding: map-get($estilos, rem);
+    margin: map-get($estilos, rem);
     font-size:map-get($estilos, tFuente);
   }
   
+
+
 
 
