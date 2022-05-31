@@ -1,13 +1,13 @@
 $redes: (
  Instagram: orange,
- Twitter:  blue,
+ Facebook:  blue,
  Whatsapp: green
 );
 
 
 @each $clave, $valor in $redes {
    .btn--#{$clave} {
-       background-color: $valor;
+       color: $valor;
    }
 }
 
@@ -38,6 +38,7 @@ $estilos: (
 	border-radius:20px;
 	border:1px solid black;
     font-weight: bold;
+    text-decoration: none;
     
 }
 
@@ -47,12 +48,25 @@ $estilos: (
 	background-color:#2ECC71;
 }
 
-.boton--cancelar{
+.btn-menu{
 	@extend .btn;
-	background-color:red;
+	background-color:black;
 	color:yellow;
 
 }
+
+@mixin menu ($width, $height, $border, $margin, $padding, $font) {
+    width: $width;
+    height: $height;
+    border: $border;
+    margin: $margin;
+    padding: $padding;
+    font-size: $font;
+    
+}
+ .menu {
+    @include menu (500px, 400px, solid white, 10px, 10px, 20px);
+ }
 
 
 
