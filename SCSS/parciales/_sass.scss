@@ -1,0 +1,29 @@
+$redes: (
+ Instagram: orange,
+ Twitter:  blue,
+ Whatsapp: green
+);
+
+
+@each $clave, $valor in $redes {
+   .btn--#{$clave} {
+       background-color: $valor;
+   }
+}
+
+$estilos: (
+  color: pink,
+  position: end,
+  tFuente: 20px,
+  rem : 1rem
+);
+
+div {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, position);
+    padding: map-get($estilos, rem);
+    font-size:map-get($estilos, tFuente);
+  }
+  
+
+

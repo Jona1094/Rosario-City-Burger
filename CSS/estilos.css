@@ -1,4 +1,23 @@
 @charset "UTF-8";
+.btn--Instagram {
+  background-color: orange;
+}
+
+.btn--Twitter {
+  background-color: blue;
+}
+
+.btn--Whatsapp {
+  background-color: green;
+}
+
+div {
+  background-color: pink;
+  text-align: end;
+  padding: 1rem;
+  font-size: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
