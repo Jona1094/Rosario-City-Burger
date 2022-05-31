@@ -17,6 +17,29 @@
   padding: 1rem;
   margin: 1rem;
   font-size: 20px;
+  justify-content: center;
+}
+
+.btn, .btn-enviar, .boton--cancelar {
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.btn-enviar {
+  border: none;
+  background-color: #2ECC71;
+}
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow;
 }
 
 * {
