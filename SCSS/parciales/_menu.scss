@@ -5,7 +5,13 @@
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
     margin: 10px;
+    padding: 1rem;
    
+}
+
+.menu__caja {
+    border: mediumseagreen solid;
+    margin: 2rem;
 }
 
 .menu__img {
@@ -36,4 +42,8 @@
     0% {
         background-color:#28B463;
     }
+}
+
+.menupadre {
+    
 }

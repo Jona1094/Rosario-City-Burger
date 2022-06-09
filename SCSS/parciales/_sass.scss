@@ -65,8 +65,27 @@ $estilos: (
     
 }
  .menu {
-    @include menu (500px, 400px, solid white, 10px, 10px, 20px);
+    @include menu (500px, 500px, solid white, 10px, 10px, 20px);
  }
+
+
+ .menu:hover {
+    animation-name: mimenu;
+    animation-duration: 2s;
+
+}
+
+@keyframes mimenu {
+    0% {
+        background-color: grey;
+        transform: scale(3rem);
+        
+    }
+    30% {background-color: #1D8348;}
+
+    
+}
+
 
 
 

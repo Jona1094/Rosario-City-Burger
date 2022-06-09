@@ -45,11 +45,26 @@
 
 .menu {
   width: 500px;
-  height: 400px;
+  height: 500px;
   border: solid white;
   margin: 10px;
   padding: 10px;
   font-size: 20px;
+}
+
+.menu:hover {
+  animation-name: mimenu;
+  animation-duration: 2s;
+}
+
+@keyframes mimenu {
+  0% {
+    background-color: grey;
+    transform: scale(3rem);
+  }
+  30% {
+    background-color: #1D8348;
+  }
 }
 
 * {
@@ -119,6 +134,14 @@
   width: auto;
 }
 
+.imgbanco {
+  width: 500px;
+  height: auto;
+  flex-direction: column;
+  margin: 1rem;
+  margin-left: 8rem;
+}
+
 .inicio1__takeaway {
   padding: 3rem;
 }
@@ -180,7 +203,7 @@
 }
 
 .footer {
-  background-color: #9A7D0A;
+  background-color: #212F3C;
   height: 300px;
   display: flex;
   flex-direction: row;
@@ -204,6 +227,12 @@
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
   margin: 10px;
+  padding: 1rem;
+}
+
+.menu__caja {
+  border: mediumseagreen solid;
+  margin: 2rem;
 }
 
 .menu__img {
@@ -247,7 +276,7 @@
   }
   .inicio2__veggie-caja1 {
     width: auto;
-    height: auto;
+    height: 250px;
     padding: 0;
   }
   .inicio2__veggie-caja2 {
@@ -258,6 +287,7 @@
   }
   .inicio2__vegie-imagen {
     width: auto;
+    padding-left: 25%;
   }
   .wpp {
     left: 90%;
@@ -271,7 +301,19 @@
     height: auto;
     flex-direction: column;
     margin: 5px;
-    align-content: center;
+  }
+  .menu__img {
+    width: 200px;
+    text-align: center;
+  }
+  .menu {
+    width: 400px;
+    justify-content: center;
+  }
+  .menupadre {
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
   }
 }
 
@@ -299,15 +341,10 @@
     padding: 0;
   }
   .inicio2__vegie-imagen {
-   display: none;
+    width: 300px;
+    height: 320px;
+    padding-left: 0;
   }
-
-  .btn {
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
-  }
-
   .footer {
     justify-content: center;
     height: 200px;
@@ -335,11 +372,11 @@
     width: 250px;
     height: auto;
     flex-direction: column;
-    margin: 5px;
-    align-content: center;
+    text-align: center;
+    margin: 1rem;
   }
   .wpp {
-    left: 90%;
+    left: 85%;
     width: 40px;
   }
   .imgveggie {
@@ -347,7 +384,18 @@
     margin: 3px;
   }
   .menu-1 {
-    font-size: 50px;
+    display: none;
+  }
+  .menu__img {
+    text-align: center;
+  }
+  .menu {
+    width: 320px;
+    margin-left: 0px;
+  }
+  .menupadre {
+    flex-direction: column;
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
